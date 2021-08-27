@@ -36,7 +36,7 @@ int main()
     root->right->left = new Node(6);
     root->right->right = new Node(7);
 
-    // <----- VERTICAL ORDER TRAVERSAL (VERSION 1)----->
+    // <----- VERTICAL ORDER TRAVERSAL (VERSION 1) (RECURSIVE)----->
     // TIME COMPLEXITY :- O(N);
 
     // IN THIS QUESTION, IN EVERY HORIZONTAL DISTANCE'S VECTOR IT IS NOT NECESSARY THAT ALL NODES MUST BE IN ORDER (LEVEL ORDER)
