@@ -15,11 +15,6 @@ struct Node
     }
 };
 
-struct Pair
-{
-    Node *node;
-    int hd;
-};
 
 int mn = INT_MAX, mx = INT_MIN;
 void shadow_Width(Node *&root, int hd)
