@@ -58,7 +58,7 @@ int main()
     root->right->left = new Node(6);
     root->right->right = new Node(7);
 
-    // <----- VERTICAL ORDER TRAVERSAL (VERSION 2)----->
+    // <----- VERTICAL ORDER TRAVERSAL (VERSION 2) (ITERATIVE)----->
     // ALL THE NODES IN EVERY VECTOR ARE SORTED LEVELWISE
     // TIME COMPLEXITY :- O(N);
 
