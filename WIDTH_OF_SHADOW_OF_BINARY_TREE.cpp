@@ -27,14 +27,8 @@ void shadow_Width(Node *&root, int hd)
     if (root == NULL)
         return;
     shadow_Width(root->left, hd - 1);
-    if (hd < mn)
-    {
-        mn = hd;
-    }
-    if (hd > mx)
-    {
-        mx = hd;
-    }
+    mn = min(mn, hd);
+    mx = max(mx, hd);
     shadow_Width(root->right, hd + 1);
 }
 int main()
