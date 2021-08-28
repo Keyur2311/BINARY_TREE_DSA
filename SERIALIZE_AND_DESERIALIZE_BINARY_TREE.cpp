@@ -55,7 +55,7 @@ int main()
     root->right->left = new Node(6);
     root->right->right = new Node(7);
 
-    // <----- SERIALIZE A BINARY TREE (USING INORDER) ------>
+    // <----- SERIALIZE A BINARY TREE (USING PREORDER) ------>
     // TIME COMPLEXITY :- O(N)
     // SPACE COMPLEXITY :- O(N)
 
