@@ -15,7 +15,7 @@ struct Node
     }
 };
 
-// serialization of a Binary tree from inorder
+// serialization of a Binary tree from preorder
 void serialize(Node *&root, vector<int> &v)
 {
     if (root == NULL)
